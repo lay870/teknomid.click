@@ -776,8 +776,11 @@ textarea {
     text-align: center;
   }
 }
-.logo > img {
+.logo {
   max-height: var(--header-height);
+  height: auto;
+  max-width: 50%;
+  vertical-align: top;
 }
 
 .search {
@@ -1607,9 +1610,9 @@ textarea {
 }
 @media all and (min-width: 75em) {
   .l-masonry {
-    -webkit-column-gap: 4%;
-       -moz-column-gap: 4%;
-            column-gap: 4%;
+    -webkit-column-gap: 1%;
+       -moz-column-gap: 1%;
+            column-gap: 1%;
   }
 }
 @media all and (min-width: 56.25em) {
